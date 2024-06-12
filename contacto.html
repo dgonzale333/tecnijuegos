@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="contacto.css">
+
+</head>
+<body bgcolor="black"  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <header>
+		<nav>
+			<a href="menu.html">Inicio</a>
+			<a href="productos.php">Productos</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="conocenos.html">Conocenos</a>
+		  </div>
+		</nav>
+	</header>
+	<div class="encabezado-img">
+		  <h1>COMENTARIOS</h1>
+	  </div>
+ 
+<br><br>
+    <h1 style="color: white ">Formulario de Comentarios</h1>
+	<br><br>
+    <form action="procesar_comentario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="texto" name="texto" required></textarea><br><br>
+
+        <label for="nombre">Fecha:</label>
+        <input type="date" id="fecha_comentario" name="fecha_comentario" required>
+
+		<label for="nombre">Correo</label>
+        <input type="text" id="correo" name="correo" required>
+
+        <input type="submit" value="Enviar Comentario">
+    </form>
+</body>
+</html>

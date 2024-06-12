@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Open Sans';
+}
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    form {
+      display: flex;
+      margin-top: 10px;
+    }
+    
+    input[type="search"] {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      flex: 1;
+      align-items: start;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 7px 15px;
+      border-radius: 3px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+header{
+background-color: black;
+text-align: center;
+padding: 25px;
+}
+nav a{
+display: inline-block;
+text-decoration: none;
+color: #fff;
+margin: 0 30px;
+padding: 5px 15px;
+border-radius: 30px;
+}
+nav a:hover {
+  background-image: radial-gradient(circle at 50% -20.71%, #de9c2c 0, #e5922a 8.33%, #ea852b 16.67%, #ee772d 25%, #f16731 33.33%, #f35436 41.67%, #f23c3c 50%, #f01843 58.33%, #ed004c 66.67%, #e90057 75%, #e30064 83.33%, #db0071 91.67%, #d10080 100%);
+color: #000;
+}
+.encabezado-img{
+background-image: url("img/backgroundread.jpg");
+background-size: cover;
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: black;
+}
+.encabezado-img p{
+font-size: 18px;
+}
+.encabezado-img h1{
+font-size: 50px;
+padding: 15px 0;
+}
+.box{
+    text-align: center;
+}
+.vertical-menu {
+  width: 200px; 
+}
+
+.vertical-menu a {
+  background-image: radial-gradient(circle at 50% -20.71%, #de9c2c 0, #e5922a 8.33%, #ea852b 16.67%, #ee772d 25%, #f16731 33.33%, #f35436 41.67%, #f23c3c 50%, #f01843 58.33%, #ed004c 66.67%, #e90057 75%, #e30064 83.33%, #db0071 91.67%, #d10080 100%);
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #0E34A0
+}
+
+
+.vertical-menu .dropdown-content {
+  display: none;
+  padding-left: 16px;
+}
+
+.vertical-menu .dropdown-toggle:hover + .dropdown-content {
+  display: block;
+}
+.container{
+	height: 450px;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: center;
+	  color: #000;
+
+}
+      .featured-products {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between
+}
+     .featured-products2{
+        width: 10%;
+        margin: 0 auto;
+       display: flex;
+       justify-content: space-between;  
+       align-items: baseline;
+    }
+
+
+      .product {
+        width: 30%;
+        border: 3px solid black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .product img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .product h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .product p {
+        font-size: 16px;
+        color: #000;
+      }
+
+      .product:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px  red
+      }
+      .search-bar {
+        display: inline-block;
+        border: 1px solid red;
+        border-radius: 4px;
+        padding: 8px;
+      }
+  
+      .search-btn {
+        padding: 8px 12px;
+        background-image: radial-gradient(circle at 50% -20.71%, #de9c2c 0, #e5922a 8.33%, #ea852b 16.67%, #ee772d 25%, #f16731 33.33%, #f35436 41.67%, #f23c3c 50%, #f01843 58.33%, #ed004c 66.67%, #e90057 75%, #e30064 83.33%, #db0071 91.67%, #d10080 100%);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    body{
+      font-family: 'Russo One', sans-serif;
+    }
+
+
+    .plataforma {
+      display: inline-block;
+      margin: 10px;
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #333;
+      cursor: pointer;
+      transition: transform 0.2s;
+  }
+
+  .plataforma:hover {
+      transform: scale(1.1);
+      }
+
+      .plataformas-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    video {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      border: 5px solid black;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgb(255, 0, 0);
+  }
+
+  .play-button {
+    background-color: red;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    .product {
+      margin: 10px;
+      padding: 10px;
+    
+      border-radius: 5px;
+      }
+
+      .plataforma img {
+        max-width: 80px; /* Ajusta el tamaño deseado */
+        border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      nav a {
+          margin: 5px 0;
+      }
+
+      .encabezado-img h1 {
+          font-size: 24px;
+      }
+
+      h1 {
+          font-size: 20px;
+      }
+
+      .product {
+          padding: 0 10px;
+      }
+
+      .play-button {
+          font-size: 18px;
+          padding: 8px 16px;
+          margin-top: 10px;
+      }
+
+      .plataforma img {
+          max-width: 60px;
+      }
+  }
+  .login
+  {
+    background-image: radial-gradient(circle at 50% -20.71%, #de9c2c 0, #e5922a 8.33%, #ea852b 16.67%, #ee772d 25%, #f16731 33.33%, #f35436 41.67%, #f23c3c 50%, #f01843 58.33%, #ed004c 66.67%, #e90057 75%, #e30064 83.33%, #db0071 91.67%, #d10080 100%);
+   color: black;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 20px;
+   cursor: pointer;
+ }
